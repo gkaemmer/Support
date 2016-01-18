@@ -26,6 +26,10 @@ app.get('/intake', function(req, res) {
   res.sendFile(__dirname + '/build/intake.html');
 });
 
+app.get('/fulfillment', function(req, res) {
+  res.sendFile(__dirname + '/build/fulfillment.html');
+});
+
 app.get('/contact', function(req, res) {
   res.sendFile(__dirname + '/build/contact.html');
 });
